@@ -86,7 +86,7 @@ else:
 ```
 
 ### For Loops
-A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). 
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).\
 In this example, you will see how `items` would be a element of the `list` list, and you are iterating over `list`.
 ```python
 list = ["caden", "layta", "virtual"]
@@ -101,10 +101,11 @@ virtual
 ```
 
 ### Looping through a string
-Strings are iterable objects, they contain a sequence of characters and work with for loops. Example below:
+Strings are iterable objects, they contain a sequence of characters and work with for loops.\n
+In this example, you will see how `letters` would be a string, and you are iterating over `"caden"`.
 ```python
-for letter in "caden":
-    print(letter)
+for letters in "caden":
+    print(letters)
 ```
 ```python
 Output:
