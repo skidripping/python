@@ -39,3 +39,13 @@ username = input("username> ")
 print("Hello "+username+"!")
 ```
 `input()` is your standard input handler, it gets the data written to the terminal and stores it to a variable (if you set it to a variable, otherwise it wouldnt get stored)
+## Arrays
+There is two types of arrays, you have lists, and tuples
+Let's start with lists then at the end of both we will compare each of them and go in depth
+### Lists
+A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. Each element or value that is inside of a list is called an item
+```python
+mylist = ["Aaron", "Jake", "Markus", "Carroll"]
+print(mylist[3])
+```
+Note: it starts from 0, so basically if you type `print(mylist[0])` it should print `Aaron`
