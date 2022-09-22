@@ -101,7 +101,7 @@ virtual
 ```
 
 ### Looping through a string
-Strings are iterable objects, they contain a sequence of characters and work with for loops.\n
+Strings are iterable objects, they contain a sequence of characters and work with for loops.\
 In this example, you will see how `letters` would be a string, and you are iterating over `"caden"`.
 ```python
 for letters in "caden":
