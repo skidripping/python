@@ -99,7 +99,7 @@ virtual
 ```
 
 ### Looping through a string
-Strings are iterable objects, they contain a sequence of characters and work with for loops:
+Strings are iterable objects, they contain a sequence of characters and work with for loops. Example below.
 ```python
 for letter in "caden":
     print(letter)
@@ -114,9 +114,7 @@ n
 ```
 
 ### For loop in range()
-To loop through a set of code a specified number of times, we can use the range() function, The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1, and ends at a specified integer.
-
-What this code basically does is count to 6, counting from 0. This can be used to run code multiple times, or do whatever a specified amount of times.
+To loop through a set of code a specified number of times, we can use the range() function, The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1, and ends at a specified integer. Example below:
 ```python
 for count in range(6):
     print(count)
