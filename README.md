@@ -58,3 +58,28 @@ With index numbers aka `[0]` it's the same for tuples.
 ### Differences
 The differences between tuples and lists are, lists are changable, tuples are not, tuples are more memory efficient, tuples are also time efficient aswell.
 ## `if`/`else`/`elif` statements
+### `if` statements
+If statements help you run functions when a specific thing happens, or a specific thing matches, etc...
+```python
+if 1 == 1:
+    print("1 does equal 1!")
+```
+
+### `else` statements
+```python
+username = input("username> ")
+if username == "virtual":
+    print("Hey, you made this documentation!")
+else:
+    print("Hey!, Your not virtual but your cool too!")
+```
+### `elif` statements
+```python
+username = input("username> ")
+if username == "virtual":
+    print("Hey, you made this documentation!")
+elif username == "skidripping":
+    print("Well, your virtual, just a different username!")
+else:
+    print("Hey!, Your not virtual but your cool too!")
+```
