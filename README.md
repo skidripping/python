@@ -15,6 +15,8 @@ It has multiple uses, it's not only those specified.
 ```python
 print ("Hello World!")
 ```
+`print()` is your standard output function, it basically prints the given object to your terminal screen
+
 ## Variables
 ```python
 message = "Hello!"
@@ -22,6 +24,9 @@ username = "root"
 
 print (f"{message} {root}")
 ```
+the thing we provided aka `f` is a f-string, it's used to put in variables easily using brackets aka `{variable}` or even functions `{os.system("clear")`
+
+
 Or if you want to print a variable by itself
 ```python
 message = "I'm lonely!"
@@ -33,3 +38,4 @@ print(message)
 username = input("username> ")
 print("Hello "+username+"!")
 ```
+`input()` is your standard input handler, it gets the data written to the terminal and stores it to a variable (if you set it to a variable, otherwise it wouldnt get stored)
