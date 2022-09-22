@@ -166,3 +166,12 @@ for letter in "skiddy":
         print("hey!, you called me a skid, but i'll let it pass i'm not butthurt")
         continue
 ```
+## Functions
+Creating a function is quite simple, it can be done with one line of code
+```python
+def function(arguments):
+    print("function has been ran!")
+
+function(argument)
+```
+The terms parameter and argument can be used for the same thing: information that are passed into a function. From a function's perspective: A parameter is the variable listed inside the parentheses in the function definition. An argument is the value that are sent to the function when it is called.
