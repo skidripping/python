@@ -49,3 +49,12 @@ mylist = ["Aaron", "Jake", "Markus", "Carroll"]
 print(mylist[3])
 ```
 Note: it starts from 0, so basically if you type `print(mylist[0])` it should print `Aaron`
+### Tuples
+Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
+```python
+mytuple = ("apple", "banana", "cherry")
+```
+With index numbers aka `[0]` it's the same for tuples.
+### Differences
+The differences between tuples and lists are, lists are changable, tuples are not, tuples are more memory efficient, tuples are also time efficient aswell.
+## `if`/`else`/`elif` statements
