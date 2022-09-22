@@ -17,14 +17,14 @@ It has multiple uses, it's not only those specified.
  - 99% of compiled apps have been detected as malware in python
 # Basics
 ## Data types
-Text: `str`
-Numeric: `int`, `float`, `complex`
-Sequence Types:	`list`, `tuple`, `range`
-Mapping Type: `dict`
-Set Types: `set`, `frozenset`
-Boolean Type: `bool`
-Binary Types: `bytes`, `bytearray`, `memoryview`
-None Type: `NoneType`
+Text: `str`\
+Numeric: `int`, `float`, `complex`\
+Sequence Types:	`list`, `tuple`, `range`\
+Mapping Type: `dict`\
+Set Types: `set`, `frozenset`\
+Boolean Type: `bool`\
+Binary Types: `bytes`, `bytearray`, `memoryview`\
+None Type: `NoneType`\
 ## Printing
 ```python
 print("Hello World!")
