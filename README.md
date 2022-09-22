@@ -5,6 +5,7 @@ It has multiple uses, it's not only those specified.
  - Easy to learn
  - A lot of support & developers
  - High memory safety
+ - Almost like English syntax
 # Downsides
  - Slow sometimes
  - Uses alot of the CPU if not managed right
@@ -21,16 +22,14 @@ print ("Hello World!")
 ```python
 message = "Hello!"
 username = "root"
-
 print (f"{message} {root}")
 ```
-the thing we provided aka `f` is a f-string, it's used to put in variables easily using brackets aka `{variable}` or even functions `{os.system("clear")`
+the thing we provided aka `f` is a f-string, it's used to put in variables easily using brackets aka `{variable}` or even functions `{os.system("clear")}`
 
 
 Or if you want to print a variable by itself
 ```python
 message = "I'm lonely!"
-
 print(message)
 ```
 ## User input
@@ -81,5 +80,30 @@ if username == "virtual":
 elif username == "skidripping":
     print("Well, your virtual, just a different username!")
 else:
-    print("Hey!, Your not virtual but your cool too!")
+    print("Hey, you're not virtual but you're cool too!")
 ```
+
+### For Loops
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). 
+Example below:
+```python
+list = ["caden", "layta", "virtual"]
+for word in list:
+    print(word)
+Output:
+caden
+layta
+virtual```
+
+# Looping through a string
+```python
+for letter in "caden":
+    print(letter)
+Output:
+c
+a
+d
+e
+n```
+
+
