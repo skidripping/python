@@ -34,10 +34,10 @@ Or if you want to print a variable by itself
 message = "I'm lonely!"
 print(message)
 ```
-##Input
+## User input
 ```python
 username = input("username> ")
-print(f"Hello {username}")
+print("Hello "+username+"!")
 ```
 `input()` is your standard input handler, it gets the data written to the terminal and stores it to a variable (if you set it to a variable, otherwise it wouldnt get stored)
 ## Arrays
@@ -87,11 +87,11 @@ else:
 
 ### For Loops
 A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). 
-Example below:
+In this example, you will see how `items` would be a element of the `list` list, and you are iterating over `list`.
 ```python
 list = ["caden", "layta", "virtual"]
-for word in list:
-    print(word)
+for items in list:
+    print(items)
 ```
 ```python
 Output:
@@ -116,10 +116,10 @@ n
 ```
 
 ### For loop in range()
-To loop through a set of code a specified number of times, we can use the range() function, The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1, and ends at a specified integer. Example below:
+To loop through a set of code a specified number of times, we can use the `range()` function, The `range()` function returns a sequence of numbers, starting from 0 by default, and increments by 1, and ends at a specified integer. Example below:
 ```python
-for count in range(6):
-    print(count)
+for numbers in range(6):
+    print(numbers)
 ```
 ```python
 Output:
