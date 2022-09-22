@@ -1,3 +1,5 @@
+# Contributors
+[caden](https://discord.gg/users/941864953965592636)
 # Introduction
 Python is a high level language used for anything software, as in cli projects, ai, cryptography, etc...
 It has multiple uses, it's not only those specified.
@@ -14,7 +16,7 @@ It has multiple uses, it's not only those specified.
 # Basics
 ## Printing
 ```python
-print ("Hello World!")
+print("Hello World!")
 ```
 `print()` is your standard output function, it basically prints the given object to your terminal screen
 
