@@ -90,6 +90,8 @@ Example below:
 list = ["caden", "layta", "virtual"]
 for word in list:
     print(word)
+```
+```python
 Output:
 caden
 layta
@@ -101,6 +103,8 @@ Strings are iterable objects, they contain a sequence of characters and work wit
 ```python
 for letter in "caden":
     print(letter)
+```
+```python
 Output:
 c
 a
