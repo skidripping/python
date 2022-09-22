@@ -93,7 +93,8 @@ for word in list:
 Output:
 caden
 layta
-virtual```
+virtual
+```
 
 # Looping through a string
 ```python
