@@ -34,10 +34,10 @@ Or if you want to print a variable by itself
 message = "I'm lonely!"
 print(message)
 ```
-## User input
+##Input
 ```python
 username = input("username> ")
-print("Hello "+username+"!")
+print(f"Hello {username}")
 ```
 `input()` is your standard input handler, it gets the data written to the terminal and stores it to a variable (if you set it to a variable, otherwise it wouldnt get stored)
 ## Arrays
