@@ -96,7 +96,7 @@ layta
 virtual
 ```
 
-# Looping through a string
+### Looping through a string
 ```python
 for letter in "caden":
     print(letter)
@@ -105,6 +105,7 @@ c
 a
 d
 e
-n```
+n
+```
 
 
