@@ -71,6 +71,7 @@ x, y, z = "wow we all are the same that's cool!"
 username = input("username> ")
 print("Hello "+username+"!")
 ```
+Note: the way I put in isn't the only way to do it, you can use a f-string to print that variable, that's just how I chose it. 
 `input()` is your standard input handler, it gets the data written to the terminal and stores it to a variable (if you set it to a variable, otherwise it wouldnt get stored)
 ## Arrays
 There is two types of arrays, you have lists, and tuples
