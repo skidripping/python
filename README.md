@@ -119,7 +119,7 @@ e
 n
 ```
 
-### For loop in range()
+### `for` loop in `range()`
 To loop through a set of code a specified number of times, we can use the `range()` function, The `range()` function returns a sequence of numbers, starting from 0 by default, and increments by 1, and ends at a specified integer. Example below:
 ```python
 for numbers in range(6):
