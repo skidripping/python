@@ -1,5 +1,6 @@
 # Contributors
 [caden](https://discord.gg/users/941864953965592636)
+[virtual](https://t.me/skidripping)
 # Introduction
 Python is a high level language used for anything software, as in cli projects, ai, cryptography, etc...
 It has multiple uses, it's not only those specified.
@@ -85,7 +86,8 @@ else:
     print("Hey, you're not virtual but you're cool too!")
 ```
 
-### For Loops
+## Loops
+### `for` loops
 A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).\
 In this example, you will see how `items` would be a element of the `list` list, and you are iterating over `list`.
 ```python
@@ -130,4 +132,36 @@ Output:
 3
 4
 5
+```
+### `while` loops
+a `while` loop is used for an unknown number of times until a specific condition is met, and that's used through `break`/`continue` statements, that is mentioned right after this section
+```python
+while 1==1:
+    print("haha funny")
+    if 1==2:
+    print("1 will never become 2, i will always keep looping :(")
+    break
+```
+### `break`/`continue` statements
+#### `break` statements
+A break statement is used for ending loops overall, it can be used with a specified if statement of your choosing
+```python
+for i in range(15):
+    if i == 10:
+        break
+```
+or
+```python
+for letter in "skid":
+    if letter == "i":
+        print("you are about to say skid, breaking the statement")
+        break
+```
+#### `continue` statements
+A continue statements, well as advertised used to continue loops, but it skips the rest of the code and just continues the loop to the next iteration
+```python
+for letter in "skiddy":
+    if letter == "d":
+        print("hey!, you called me a skid, but i'll let it pass i'm not butthurt")
+        continue
 ```
