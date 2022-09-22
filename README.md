@@ -16,12 +16,38 @@ It has multiple uses, it's not only those specified.
  - not good for compiling applications (easy to decompile)
  - 99% of compiled apps have been detected as malware in python
 # Basics
+## Data types
+Text: `str`
+
+Numeric: `int`, `float`, `complex`
+
+Sequence Types:	`list`, `tuple`, `range`
+
+Mapping Type: `dict`
+
+Set Types: `set`, `frozenset`
+
+Boolean Type: `bool`
+
+Binary Types: `bytes`, `bytearray`, `memoryview`
+
+None Type: `NoneType`
 ## Printing
 ```python
 print("Hello World!")
 ```
 `print()` is your standard output function, it basically prints the given object to your terminal screen
+## Comments
+Comments is basically as it's said, putting comments in your code, parts of code that don't get called by the interpreter
+```python
+# Wow that's a comment
 
+"""
+Wow I'm a comment too!!
+"""
+
+print("comments didn't get called?!?")
+```
 ## Variables
 ```python
 message = "Hello!"
@@ -35,6 +61,10 @@ Or if you want to print a variable by itself
 ```python
 message = "I'm lonely!"
 print(message)
+```
+Or assign multiple variables and give them one value
+```python
+x, y, z = "wow we all are the same that's cool!"
 ```
 ## User input
 ```python
@@ -67,7 +97,6 @@ If statements help you run functions when a specific thing happens, or a specifi
 if 1 == 1:
     print("1 does equal 1!")
 ```
-
 ### `else` statements
 ```python
 username = input("username> ")
@@ -86,7 +115,6 @@ elif username == "skidripping":
 else:
     print("Hey, you're not virtual but you're cool too!")
 ```
-
 ## Loops
 ### `for` loops
 A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).\
@@ -102,7 +130,6 @@ caden
 layta
 virtual
 ```
-
 ### Looping through a string
 Strings are iterable objects, they contain a sequence of characters and work with for loops.\
 In this example, you will see how `letters` would be a string, and you are iterating over `"caden"`.
@@ -118,7 +145,6 @@ d
 e
 n
 ```
-
 ### `for` loop in `range()`
 To loop through a set of code a specified number of times, we can use the `range()` function, The `range()` function returns a sequence of numbers, starting from 0 by default, and increments by 1, and ends at a specified integer. Example below:
 ```python
@@ -175,3 +201,14 @@ def function(arguments):
 function(argument)
 ```
 The terms parameter and argument can be used for the same thing: information that are passed into a function. From a function's perspective: A parameter is the variable listed inside the parentheses in the function definition. An argument is the value that are sent to the function when it is called.
+### `global` statements
+The `global` statement is used so you could bring a local variable and turn it into a global variable, it's pretty neat to use.
+```python
+def function():
+    global love
+    love = "haha love is cool"
+    print("love was set")
+
+function()
+print(love)
+```
