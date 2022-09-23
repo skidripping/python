@@ -128,6 +128,18 @@ print(mylist)
 Output:
 [86, 86, 56, 23, 19, 9, 8, 7, 5, 4, 2, 1]
 ```
+#### Copying a list onto another variable
+It's simple, it uses the `copy()` function.
+```python
+mylist = [5,9,7,4,8,2,1,19,56,86,23,86]
+print(mylist)
+otherlist = mylist.copy()
+print(otherlist)
+
+Output:
+[5,9,7,4,8,2,1,19,56,86,23,86]
+[5,9,7,4,8,2,1,19,56,86,23,86]
+```
 ### Tuples
 Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
 ```python
