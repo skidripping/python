@@ -239,3 +239,34 @@ class Person:
 p1 = Person("John", 36)
 p1.myfunc()
 ```
+### Inheritance
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
+```python
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+    pass
+
+# Calling the parent class
+x = Person("John", "Doe")
+x.printname()
+# Calling the child class
+x = Student("Mike", "Olsen")
+x.printname()
+```
+# `__init__()` function
+So far we have created a child class that inherits the properties and methods from its parent.
+We want to add the `__init__()` function to the child class (instead of the `pass` keyword).
+```python
+class Student(Person):
+  def __init__(self, fname, lname):
+    Person.__init__(self, fname, lname)
+```
