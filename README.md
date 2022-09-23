@@ -262,7 +262,7 @@ x.printname()
 x = Student("Mike", "Olsen")
 x.printname()
 ```
-# `__init__()` function
+#### `__init__()` function
 So far we have created a child class that inherits the properties and methods from its parent.
 We want to add the `__init__()` function to the child class (instead of the `pass` keyword).
 ```python
