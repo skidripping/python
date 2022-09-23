@@ -96,9 +96,37 @@ print(mylist)
 #mylist.remove(mylist[3])
 
 Output:
-["Aaron", "Jake", "Markus", "Carroll" ]
+
 Carroll has been fired from malloc.wtf, remove her from the work database
 ["Aaron", "Jake", "Markus"]
+```
+#### Sorting a list
+`sort()` sorts a list alphabetically or numerically, it depends on what your list is, you could also sort it in reverse.
+```python
+mylist = ["Aaron", "Jake", "Markus", "Carroll" ]
+mylist.sort()
+print(mylist)
+
+Output:
+['Aaron', 'Carroll', 'Jake', 'Markus']
+```
+Or if you want it numerically
+```python
+mylist = [5,9,7,4,8,2,1,19,56,86,23,86]
+mylist.sort()
+print(mylist)
+
+Output:
+[1, 2, 4, 5, 7, 8, 9, 19, 23, 56, 86, 86]
+```
+And finally if you want it in reverse just do this:
+```python
+mylist = [5,9,7,4,8,2,1,19,56,86,23,86]
+mylist.sort(reverse=True)
+print(mylist)
+
+Output:
+[86, 86, 56, 23, 19, 9, 8, 7, 5, 4, 2, 1]
 ```
 ### Tuples
 Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
