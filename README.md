@@ -74,7 +74,32 @@ A list is a data structure in Python that is a mutable, or changeable, ordered s
 mylist = ["Aaron", "Jake", "Markus", "Carroll"]
 print(mylist[3])
 ```
-Note: it starts from 0, so basically if you type `print(mylist[0])` it should print `Aaron`
+Note: index range starts from 0, so basically if you type `print(mylist[0])` it should print `Aaron`
+#### Appending to a list
+Appending to a list is quite easy, it's used for adding a string, integer, or whatever type you've chosen into a list.
+```python
+mylist = ["Aaron", "Jake", "Markus"]
+for name in mylist:
+    if len(mylist) < 2: # What I did here is get the length of the list, since all index numbers start with 0, it should equal to 2.
+        print("oh no, we forgotten Carroll, let's append her back in.")
+        mylist.append("Carroll")
+```
+#### Removing from a list
+The `remove()` method removes the specified item.
+```python
+mylist = ["Aaron", "Jake", "Markus", "Carroll"]
+print(mylist)
+print("Carroll has been fired from malloc.wtf, remove her from the work database")
+mylist.remove("Carroll")
+print(mylist)
+# or you could do the index range
+#mylist.remove(mylist[3])
+
+Output:
+["Aaron", "Jake", "Markus", "Carroll" ]
+Carroll has been fired from malloc.wtf, remove her from the work database
+["Aaron", "Jake", "Markus"]
+```
 ### Tuples
 Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
 ```python
