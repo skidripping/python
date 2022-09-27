@@ -1,6 +1,5 @@
 # Contributors
-[caden](https://discord.gg/users/941864953965592636)
-
+[gayboy](https://discord.gg/users/941864953965592636)
 [virtual](https://t.me/skidripping)
 # Introduction
 Python is a high level language used for anything software, as in cli projects, ai, cryptography, etc...
