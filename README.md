@@ -1,5 +1,5 @@
 # Contributors
-[caden](https://discord.gg/users/941864953965592636)
+[caden](https://discord.gg/users/941864953965592636)\
 [virtual](https://t.me/skidripping)
 # Introduction
 Python is a high level language used for anything software, as in cli projects, ai, cryptography, etc...
@@ -352,7 +352,24 @@ except Exception:
     print("err: "+Exception)
 ```
 Change the exception to whatever exception you want, like `I/O error`, whatever else. 
-### Making exceptions
+### Raising exceptions
+It's quite simple using the `raise` function:
+```python
+if 1 == 1:
+    raise Exception("hey, 1 equals one")
+```
+Or if you want to fully change the exception you could do:
+```python
+class CustomExceptionName(Exception):
+    """Still an exception raised when uncommon things happen"""
+    def __init__(self, message, payload=None):
+        self.message = message
+        self.payload = payload # you could add more args
+    def __str__(self):
+        return str(self.message) # __str__() obviously expects a string to be returned, so make sure not to send any other data types
+
+raise CustomExceptionName("hacked")
+```
 # Modules
 ## Requests
 ## Sockets
