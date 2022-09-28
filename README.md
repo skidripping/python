@@ -334,3 +334,27 @@ class Student(Person):
   def __init__(self, fname, lname):
     Person.__init__(self, fname, lname)
 ```
+## File management
+## Exception Handling
+### `try` & `except` statements
+Okay so, let's say you don't want the program to crash once a panic exception starts, those statements will help you do it:
+```python
+try:
+    f = open("simswap.txt", "r")
+except:
+    print("Exception occurred, we don't want to crash, so this is our method of coping.")
+```
+You could start even specifing exceptions and printing them:
+```python
+try:
+    f = open("simswap.txt", "r")
+except Exception:
+    print("err: "+Exception)
+```
+Change the exception to whatever exception you want, like `I/O error`, whatever else. 
+### Making exceptions
+# Modules
+## Requests
+## Sockets
+## OS
+## SYS
