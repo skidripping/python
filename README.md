@@ -372,6 +372,23 @@ raise CustomExceptionName("hacked")
 ```
 # Modules
 ## Requests
+### Sending a request
+Well, it's pretty much easy, and simple using requests, requests is also faster than most libraries.
+```python
+import requests # Importing requests
+
+request.get("https://example.com") # simple as that
+```
+### Headers
+### Types of requests
+### JSON data
+### Sessions
 ## Sockets
+### TCP
+#### Server
+#### Client
+### UDP
+#### Server
+#### Client
 ## OS
 ## SYS
