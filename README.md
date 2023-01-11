@@ -380,9 +380,37 @@ import requests # Importing requests
 request.get("https://example.com") # simple as that
 ```
 ### Headers
+```python
+import requests # Importing requests
+
+headers = { "Authorization": "nigger",
+            "Cache-Level": "none"
+          }
+
+requests.get("https://example.com", headers=headers)
+```
 ### Types of requests
+```python
+requests.get() # Search GET REQUEST for more info
+requests.post() # Search POST REQUEST for more info
+requests.patch() # Search PATCH REQUEST for more info
+requests.head() # Search HEAD REQUEST for more info
+requests.put() # Search PUT REQUEST for more info
+requests.delete() # Search HTTP DELETE REQUEST for more info
+```
 ### JSON data
+```python
+data = {"Insert json data in here"}
+
+requests.get("https://example.com", data=data)
+```
 ### Sessions
+```python
+from requests import Sessions # sessions is basically requests but faster and has a longer keep-alive session
+
+s = Sessions()
+s.get("https://example.com
+```
 ## Sockets
 ### TCP
 #### Server
